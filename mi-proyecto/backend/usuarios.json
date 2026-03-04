@@ -1,0 +1,30 @@
+[
+    {
+        "user": "prueba",
+        "pass_hash": "$pbkdf2-sha256$29000$KqV07j1nDAFA6F1LqRVizA$F8AThSkzvndxGn1d6J52cFKWWQkpeE4X7cX.e90FSkg"
+    },
+    {
+        "user": "prueba",
+        "pass_hash": "$pbkdf2-sha256$29000$P2dsjXHOuVeqldI6h9C6tw$89rFIsDK4juGylKVhKgQeerWm0YwDCioLbvPUhHfog4"
+    },
+    {
+        "user": "prueba",
+        "pass_hash": "$pbkdf2-sha256$29000$UCrlvLc2hrA2xnjvXctZaw$5bII7BaWywXyKWJQ3hGl6TCdsYpI7ba2k7J/II3WnAU"
+    },
+    {
+        "user": "hola",
+        "pass_hash": "$pbkdf2-sha256$29000$BUCo1frfe89ZK.X8H6N0Dg$nwRK.cmaU2IlLUxua3PIgplga/oVHxFkF4zGG0zhyqk"
+    },
+    {
+        "user": "Noe",
+        "pass_hash": "$pbkdf2-sha256$29000$7d3bm5NSipHSmjNGaC3FOA$0Ug23eJqxeLKJ0huaxvtognRe5L1PNwzo2WI0nLAshk"
+    },
+    {
+        "user": "prueba",
+        "pass_hash": "$pbkdf2-sha256$29000$mbM2JqQ0xjhHCOF8D4Fwjg$RPyaHE1uibIuvs.MFU04H6Rbtcig8ZqnZNrF2cxT.sg"
+    },
+    {
+        "user": "prueba",
+        "pass_hash": "$pbkdf2-sha256$29000$LAVgjBEiBCCkFAJAyBmjNA$Wk8zMcI1IibmMPhj5wd/chIxvBmKqgeIoIhLufk7zbA"
+    }
+]
