@@ -1,0 +1,117 @@
+/* Reset y Base */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #0a0a0a; /* Negro profundo de fondo */
+  font-family: "Consolas", "Monaco", "Courier New", monospace;
+}
+
+/* Centrado en pantalla completa */
+.fullscreen-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/fondo.gif);
+}
+
+/* La caja de login */
+.login-box {
+  width: 100%;
+  max-width: 450px;
+  background-color: #161616;
+  border: 1px solid #333;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.8);
+}
+
+/* Barra superior gris */
+.status-bar {
+  background-color: #2d2d2d;
+  color: #f3f0f0;
+  font-size: 11px;
+  padding: 6px 12px;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1px;
+}
+
+.terminal-content {
+  padding: 25px;
+}
+
+.system-msg {
+  color: #bbb;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.input-row {
+  display: flex;
+  margin-top: 15px;
+}
+
+/* Los campos en Azul Acero */
+.prompt {
+  color: #6699cc;
+  margin-right: 12px;
+  white-space: nowrap;
+}
+
+input {
+  background: #bbb;
+  border: none;
+  outline: none;
+  color: #000000;
+  font-family: inherit;
+  font-size: 15px;
+  width: 100%;
+}
+
+input:focus {
+  border-color: #0054e3;
+}
+
+.action-row {
+  margin-top: 20px;
+  text-align: right;
+}
+
+#exec-cmd, #reg-cmd, #return {
+  background: linear-gradient(to bottom, #ffffff 0%, #ebebeb 11%, #d5d5d5 100%);
+  border: 1px solid #003c74;
+  border-radius: 3px;
+  box-shadow: inset -1px -1px 1px #8a8a8a;
+  color: #000;
+  cursor: pointer;
+  font-family: "Tahoma", sans-serif;
+  font-size: 13px;
+  padding: 3px 12px;
+  outline: none;
+}
+
+#reg-cmd:hover, #exec-cmd:hover, #return:hover {
+    background: linear-gradient(to bottom, #f2f2f2 0%, #dcdcdc 50%, #bcbcbc 100%);
+  border-color: #6699cc;
+}
+
+
+#reg-cmd:active, #exec-cmd:active, #return:active {
+     background: linear-gradient(to bottom, #cdcdcd 0%, #e3e3e3 100%);
+  box-shadow: inset 1px 1px 2px #555;
+  padding: 4px 11px 2px 13px; /* Simula el desplazamiento del texto */
+}
+
+/* Footer estilo BitchX */
+.terminal-footer {
+  background-color: #2d2d2d;
+  color: #f3f0f0;
+  font-size: 11px;
+  padding: 4px 12px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Login</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <main class="fullscreen-wrapper">
+        <div class="login-box">
+            <!-- Cabecera técnica tipo status bar -->
+            <header class="status-bar">
+                <span class="session-id">SESSION: 0x8F22A</span>
+                <span class="connection-type">SSH/TLS 1.3</span>
+            </header>
+            <section class="terminal-content">
+                <p class="system-msg">Remitente: fsociety</p>
+                <p class="system-msg">Acceso restringido a personal de Nivel 4.</p>
+                <form id="auth-form">
+                    <div class="input-row">
+                        <span class="prompt">LOGIN_ID:</span>
+                        <input type="text" id="user" autocomplete="off" autofocus spellcheck="false">
+                    </div>
+                    <div class="input-row">
+                        <span class="prompt">PASSWORD:</span>
+                        <input type="password" id="pass" required>
+                    </div>
+                    <div class="action-row">
+                           <button type="button" id="reg-cmd" onclick="window.location.href='registro.html'">REGISTRARME</button>
+                        <button type="submit" id="exec-cmd-login"> INICIO_SESION </button>
+                    </div>
+                </form>
+            </section>
+            <footer class="terminal-footer">
+                <span id="nameuser">[#th3g3ntl3man@fsociety]</span>
+                <span>LAG: 14ms</span>
+            </footer>
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
