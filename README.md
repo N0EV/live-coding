@@ -1,6 +1,8 @@
-# **🚀 Hackathon DAM/DAW: De Cero a Producción en 12h**
+# **🚀 Hackathon DAM/DAW: De Cero a Producción**
 
-Este documento es vuestra hoja de ruta. Tenéis 12 horas para construir una aplicación web funcional. Recordad: la próxima semana, otros compañeros intentarán encontrar fallos de seguridad en vuestro código. **¡Construid con cuidado\!**
+Este documento es vuestra hoja de ruta. Tenéis que construir una aplicación web funcional. Recordad: la próxima semana, otros compañeros intentarán encontrar fallos de seguridad en vuestro código. **¡Construid con cuidado\!**
+
+Enviar un enlace de tu repositorio público a daniel@secur0.com.
 
 ## **1\. Opciones de Proyectos (Elegid uno)**
 
